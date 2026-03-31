@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 680px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  margin: 0 0 0.2rem;
+  font-size: 2rem;
+  color: #2c5282;
+}
+
+.subtitle {
+  margin: 0 0 1.2rem;
+  color: #4a5568;
+}
+
+.form-card {
+  background: #ffffff;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+}
+
+.row {
+  margin-bottom: 0.9rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.55rem 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f9fafb;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.8rem;
+}
+
+button {
+  flex: 1;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+  background: #3182ce;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 1rem;
+  padding: 0.9rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #eef2ff;
+  white-space: pre-wrap;
+  min-height: 100px;
+}
+
+.message {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  color: #2f855a;
+}
+
+.message.error {
+  color: #c53030;
+}
